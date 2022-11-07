@@ -712,3 +712,15 @@ a {
 .section-adress > .logo-footer {
     padding-bottom: 20px;
 }
+
+.product-action {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 27px;
+    right: 107px;
+    justify-content: center;
+}
+.app {
+    position: relative;
+}
