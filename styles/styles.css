@@ -28,6 +28,9 @@
     letter-spacing: 0.03em;
     margin-top: 24px;
     margin-bottom: 25px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-footer {
@@ -39,6 +42,9 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-footer:hover,
@@ -55,12 +61,18 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title {
@@ -174,18 +186,30 @@ a {
 
 .link-contact {
     color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-tel {
     color: #757575;
+    transition-property: #757575;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-mail {
     color: #2196f3;
+    transition-property: #757575;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-nav {
     color: #212121;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .position {
@@ -225,6 +249,9 @@ a {
 /*кнопки*/
 .button {
     cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -351,6 +378,9 @@ a {
     border: 1px solid #2196f3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-secondary {
@@ -359,6 +389,9 @@ a {
     border: 1px solid #f5f4fa;
     min-width: 103px;
     padding: 6px 22px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-primary:hover,
@@ -423,6 +456,9 @@ a {
     margin-bottom: 30px;
     background: #ffffff;
     border: 1px solid #eeeeee;
+    transition-property: #ffffff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-element:hover {
@@ -430,6 +466,7 @@ a {
     border: 1px solid #eeeeee;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
 }
 
 .flex-element:nth-child(3n) {
@@ -503,6 +540,9 @@ a {
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
+    transition-property: #f5f4fa;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .feature-icon:hover {
@@ -561,6 +601,9 @@ a {
     height: 92px;
     padding: 16px 32px;
     cursor: pointer;
+    transition-property: rgba(33, 150, 243, 0.9);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .actions {
@@ -626,6 +669,10 @@ a {
     fill: #afb1b8;
     width: 44px;
     height: 44px;
+    border-radius: 50%;
+    transition-property: #ffffff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons:hover,
@@ -702,6 +749,9 @@ a {
     height: 44px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         rgba(255, 255, 255, 0.1);
+    transition-property: rgba(33, 150, 243, 0.9);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media {
@@ -709,18 +759,111 @@ a {
     justify-content: center;
     margin-left: 70px;
 }
+
 .section-adress > .logo-footer {
     padding-bottom: 20px;
 }
 
+/*position picture*/
+
 .product-action {
     display: flex;
     position: absolute;
-    bottom: 0;
-    margin-bottom: 27px;
-    right: 107px;
-    justify-content: center;
+    width: 370px;
+    height: 70px;
+    top: 224px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+    justify-content: space-around;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
 }
+
 .app {
     position: relative;
+}
+/*portfolio*/
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-action {
+    display: flex;
+    content: '';
+    position: absolute;
+    width: 370px;
+    margin: 0;
+    top: 0;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    padding: 63px 24px;
+    background-color: rgba(33, 150, 243, 0.9);
+
+    opacity: 0;
+}
+
+.portfolio-action:hover {
+    opacity: 1;
+}
+
+/*BACKDROP*/
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 528px;
+    min-height: 587px;
+    background-color: #ffffff;
+}
+
+.closeModal {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 50%;
+    color: #757575;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    cursor: pointer;
+    transition-property: #ffffff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.closeModal:hover {
+    background-color: #ffffff;
+    border: 1px solid #ff0000;
+    fill: #ff0000;
 }
